@@ -1,0 +1,124 @@
+.header {
+    width: 100%;
+    float: left;
+    background: #050606;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 9999;
+    box-shadow: 0 0 5px #888;
+}
+
+.menu-link {
+    width: 100%;
+    float: left;
+}
+
+.menu-link ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right
+}
+
+.menu-link ul li {
+    display: inline-block
+}
+
+.menu-link ul li a {
+    display: block;
+    margin: 0 10px;
+    padding: 27px 15px;
+    color: #999;
+    text-decoration: none;
+    border-bottom: 3px solid #ba0400;
+    font-size: 14px;
+    text-align: left;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+}
+
+.menu-link ul li a:hover {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.main-bg {
+    background: url(../images/z1YRs7.jpg) no-repeat left center;
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-size: cover;
+}
+
+.flight-widget {
+    width: 100%;
+    float: left;
+    background: rgba(0, 0, 0, .5);
+    padding: 0;
+    margin-top: 50px;
+    border: 5px solid #5774da;
+    box-shadow: 2px 4px 8px #060606;
+}
+
+.flight-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.flight-widget ul li {
+    display: inline-block;
+}
+
+.flight-widget ul li.flight-align {
+    float: left;
+}
+
+.flight-widget ul li.active {
+    background: #3c3b6e;
+}
+
+.flight-widget ul li.car-align {
+    float: right;
+}
+
+.flight-widget ul li a {
+    display: block;
+    margin: 10px 15px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.tab-content {
+    width: 100%;
+    float: left;
+    padding: 5px;
+    background: #3c3b6e;
+}
+
+.tab-content .input-group-addon {
+    background-color: #b22234;
+    border: none;
+    color: #fff;
+}
+
+.hotel-con .input-group {
+    margin: 5px 0;
+    float: left;
+    width: 100%;
+}
+
+.input-group.half {
+    width: 48%
+}
+
+
+/*Csutom css of calnder*/
+
+#ui-datepicker-div {
+    z-index: 99!important;
+}
